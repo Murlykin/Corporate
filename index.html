@@ -10,32 +10,44 @@
     <link href="./styles.css" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <img src="./imgages/svg/Group.svg" />
-        <nav>
-            <ul>
-                <li><a href="#">Contact Center</a><img src="Arrow_Down.svg" alt=""></li>
-                <li><a href="#">Ecommerce</a><img src="Arrow_Down.svg" alt=""></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">About us</a><img src="Arrow_Down.svg" alt=""></li>
-                <li><a href="#">Contact us</a><img src="Arrow_Down.svg" alt=""></li>
-                <li><img src="Flag.svg" alt=""> EN <img src="Arrow_Down.svg" alt=""></li>
-                <li><a href="#"><img src="Profile.svg" alt=""></a></li>
+    <header class="container">
+        <img src="./images/svg/Group.svg" />
+        <div class="main-nav">
+            <nav>
+            <ul class="site-nav">
+                <li class="site-nav__items"><a href="#" class="site-nav__link">Contact Center</a><img src="./images/svg/Arrow_Down.svg" class="site-nav__icones" width="16" height="16" alt=""></li>
+
+                <li class="site-nav__items"><a href="#" class="site-nav__link">Ecommerce</a><img src="./images/svg/Arrow_Down.svg" class="site-nav__icones" width="16" height="16" alt=""></li>
+                <li class="site-nav__items"><a href="#" class="site-nav__link">Blog</a></li>
+                <li class="site-nav__items"><a href="#" class="site-nav__link">About us</a><img src="./images/svg/Arrow_Down.svg" class="site-nav__icones" width="16" height="16" alt=""></li>
+                <li class="site-nav__items"><a href="#" class="site-nav__link">Contact us</a><img src="./images/svg/Arrow_Down.svg" class="site-nav__icones" width="16" height="16" alt=""></li>
+
+                <li class="site-nav__items">
+                    <span class="site-nav__item">
+                    <img src="./images/svg/flag.svg" alt="" class="site-nav__link">EN<img src="./images/svg/Arrow_Down.svg" class="site-nav__icones" width="16" height="16" alt="">
+                    </span>
+                </li>
             </ul>
-        </nav>
+            </nav>
+            <div class="site-nav__img"> 
+                <img src="./images/Ellipse1.png"  />
+                <img src="./images/svg/Vector.svg" class="site-nav__icones site-nav__position"  />
+            </div>
+        </div>
     </header>
-    <section>
-        <div>
+    <section  class="head">
+        <div class="head__left">
             <h2>Your customer experience solution</h2>
-            <p>For over 50 years, transcosmos has been designing solutions that prioritize the customer experience</p>
+            <p>For over 50 years, transcosmos has been designing solutions<br> that prioritize the customer experience</p>
             <form action="">
                 <input type="Email" id="email">
                 <label for="email">Enter your email <button>Discover Now</button></label>                
             </form>
             <p>*By clicking the button, you are agreeing with our <div>Terms & Conditions</div></p>
         </div>
-        <img src="Smile_Baba.png" alt="">
-        <div>
+        <div class="head__right ">
+            <div><img src="./images/011.png" class="head__img" alt=""></div>
+            <div >
             <div>
                 <img src="Medal.svg" alt="">                
             </div>
@@ -53,7 +65,10 @@
                 <p>Tuesday - $80.00</p>
                 <p>+96 pts</p>
             </div>
+            </div>
+
         </div>
+    </section>   
         <img src="Circle.svg" alt="">
         <img src="Dots_6x5.svg" alt="">
         <img src="X.svg" alt="">
@@ -62,7 +77,15 @@
         <img src="Bold_Cube" alt="">
         <img src="Dots_7x3.svg" alt="">
         <img src="Bold_Cirle" alt="">
-    </section>
+
+
+
+
+
+==============================================================================
+
+
+
     <section>
         <div>
             <h2>Our amazing clients</h2>
