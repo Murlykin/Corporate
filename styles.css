@@ -332,6 +332,7 @@ transform: rotate(-90deg);
             font-size: 46px;
             line-height: 1.3;
         margin-bottom: 20px;
+        letter-spacing: 0.02em;
     }
 
 .about__text-p {
@@ -382,13 +383,21 @@ transform: rotate(-90deg);
 
 
 /* =========================== FOTER================= */
-
+.footer {
+            display: flex;
+                align-items: center;
+                justify-content: space-around;
+                flex-direction: column;
+   
+}
 .footer__link {
         display: flex;
             align-items: center;
             justify-content: space-around;
             gap: 80px;
             margin-top: 40px;
+            margin-bottom: 20px;
+          
 }
 .footer__copyright {
         font-family: "Catamaran", sans-serif;
@@ -396,8 +405,6 @@ transform: rotate(-90deg);
         line-height: 1.75;
         color: #3D3D3D;
         text-align: center;
-        border-top: 1px solid #E0E0E0;
-        margin-top: 50px;
         padding-top: 20px;
 }
 .footer__us {
@@ -408,7 +415,8 @@ transform: rotate(-90deg);
         font-family: "Catamaran", sans-serif;
         font-size: 16px;
         line-height: 1.75;
-  
+letter-spacing: 0.02em;
+
 }
 .footer__h4 {
         font-family: "Catamaran", sans-serif;
@@ -416,8 +424,38 @@ transform: rotate(-90deg);
             font-size: 16px;
                 line-height: 1.75;
     margin-bottom: 50px;
-}
+    letter-spacing: 0.02em;
+ }
 
 .footer__decoration {
      text-decoration: none;
+        color: #000000;
+}
+.footer__ul {
+    display: flex;
+    flex-direction: column;
+        gap: 20px;
+}
+.footer__social {
+        display: flex;
+            margin: 20px 180px 0 0;
+            gap: 40px;
+            align-items: center;
+}
+
+.footer__svg {
+    cursor: pointer;
+}
+.footer__line {
+border: 1px solid #E0E0E0;
+width: 100%;
+}
+
+.footer__logo {
+
+    margin: -50px 0 50px;
+}
+/* не работает, надо устранить */
+svg:hover .footer__svg:hover {
+    fill: #000000;
 }
