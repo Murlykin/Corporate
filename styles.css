@@ -379,13 +379,98 @@ transform: rotate(-90deg);
         margin-right: 10px;
 }
 
+/* ==================BLOG================= */
+.blog {
+                display: flex;
+                    align-items: center;
+                    justify-content: center;
+                flex-direction: column;
+                 margin-top: 50px; 
+                    margin: 0 auto; 
+}
+.blog__items  {
+                    display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        gap: 30px;
+}
+
+.blog__img{
+border-radius: 10px;
+position: relative;
+float: left;
+}
+.blog__img:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: linear-gradient(#000000 100%, #000000 0%);
+    top: 0;
+    left: 0;
+}
+.blog__item {
+                        display: flex;
+                            align-items: center;
+                        justify-content: flex-end;
+                            flex-direction: column;
+                            position: relative;
+                          
+}
+.blog__discript {
+margin-bottom: 10px;
+position: absolute;
+margin-left: 15px;
+}
+.blog__items-center{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.blog__p {
+            font-family: "Catamaran", sans-serif;
+                font-weight: 700;
+                font-size: 21px;
+                line-height: 1.6;
+                letter-spacing: 0.02em;
+             color: #ffffff;
+}
+.blog__time {
+display: flex;
+                        align-items: center;
+                            /* justify-content: center; */
+}
+.blog__p-time {
+                font-family: "Catamaran", sans-serif;
+            
+                    font-size: 16px;
+                    line-height: 1.75;
+                    letter-spacing: 0.02em;
+                    color: #ffffff;
+}
+.blog__title {
+    font-family: "Catamaran", sans-serif;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 1.3;
+letter-spacing: 0.02em;
+text-align: center;
+}
+.blog__title-p {
+    font-family: "Catamaran", sans-serif;
+    margin: 10px 0 100px 0;
+    font-size: 18px;
+    line-height: 1.66;
+text-align: center;
+}
 
 /* ======== GET ============================== */
 .get {
             display: flex;
                 align-items: center;
                 justify-content: center;
-                margin-top: 50px;
+                margin-top: 150px;
                 height: 663px;
                 width: 1305px;
                 margin: 0 auto;
@@ -395,7 +480,7 @@ transform: rotate(-90deg);
             font-weight: 700;
             font-size: 46px;
             line-height: 1.3;
-           /* text-align: center;  */
+    letter-spacing: 0.02em;
 }
 .get__p {
             font-family: "Catamaran", sans-serif;
@@ -416,7 +501,6 @@ flex-direction: column;
             width: 384px;
             height: 63px;
             padding-left: 15px;
-         
 }
 
 .get__img {
