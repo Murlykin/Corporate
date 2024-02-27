@@ -384,7 +384,150 @@ body {
     margin-right: 10px;
 }
 
-/* ==================BLOG================= */
+/* ================== VISION ============================= */
+
+.vison {
+        display: flex;
+align-items: center;
+    Justify-content: center;
+    flex-direction: column;
+            margin-top: 150px;
+            height: 663px;
+            width: 1305px;
+            /* margin: 0 auto; */
+            margin-left: 152px;
+}
+.vison__title {
+        font-family: "Catamaran", sans-serif;
+            font-weight: 700;
+            font-size: 46px;
+            line-height: 1.3;
+            letter-spacing: 0.02em;
+            text-align: center;
+            letter-spacing: 0.02em;
+}
+.vison__title-p{
+        font-family: "Catamaran", sans-serif;
+            margin: 10px 0 100px 0;
+            font-size: 18px;
+            line-height: 1.66;
+            text-align: center;
+            letter-spacing: 0.02em;
+}
+/* .vison__position {
+
+    display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    flex-direction: row-reverse;  
+} */
+.vison__servises {
+            transform: rotate(90deg);
+                font-weight: 700;
+                font-size: 70px;
+                line-height: 1.64;
+                color: #f5f5f5;
+                text-align: center;
+                width: 560px;
+                height: 119px;
+                margin: 0 -300px 0 -230px ;
+                letter-spacing: 0.02em;
+}
+.vison__card {
+            display: flex;
+                align-items: center;
+                Justify-content: center;
+                gap: 30px;
+}
+.vison__card-items {
+                 width: 370px;
+                    height: 462px;
+                    /* border: 1px solid #d22238; */
+                    margin: 0 auto;
+                    border-radius: 10px;
+                    padding: 40px 0 0 40px;
+}
+
+.vison__card-items:focus,
+.vison__card-items:hover {
+    box-shadow: 0px 18px 41px 0px rgba(240, 0, 0, 0.06);
+    /* border: 1px solid #d22238; */
+}
+.vison__title-card {
+    font-weight: 700;
+        font-size: 21px;
+        line-height: 1.57;
+        letter-spacing: 0.02em;
+        margin-top: 50px;
+}
+.vison__p-card {
+            font-size: 16px;
+                line-height: 1.75;
+                letter-spacing: 0.02em;
+                margin-top: 25px;
+                color: #858585;
+}
+.vison__img {
+    background-color: #F6EFFA;
+    border-radius: 10px;
+}
+.vison__img2{
+    background-color: #FCEDEF;
+}
+.vison__img3 {
+    background-color: #EDFCFB;
+}
+
+.vison__button {
+                display: flex;
+                    align-items: center;
+                    Justify-content: center;
+                    gap: 4px;
+        font-family: "Catamaran", sans-serif;
+            font-weight: 600;
+            font-size: 15px;
+            line-height: 1.66;
+            color: #858585;
+            background-color: rgb(0 0 0 / 0);
+            border-radius: 10px;
+            width: 145px;
+            height: 52px;
+            border: 1px solid #858585;
+            margin: 40px 0;
+}
+.vison__button:focus,
+.vison__button:hover {
+    color: #FFFFFF;
+    background-color: #d22238;
+    fill: #FFFFFF;
+  
+    /* background-image: url(./images/arrow-right.png);
+    background-repeat: no-repeat; */
+    
+}
+
+/* ================== FEATURES =========================== */
+
+.features {
+            display: flex;
+                align-items: center;
+                flex-direction: column;
+                Justify-content: center;
+                margin-top: 50px;
+}
+
+
+/* ================== TEAMS =============================== */
+.teams {
+                display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    Justify-content: center;
+                    margin-top: 50px;
+}
+
+
+/* ================== BLOG =============================== */
 .blog {
     display: flex;
     align-items: center;
@@ -420,7 +563,7 @@ body {
     top: 0;
     left: 0;
     background: transparent;
-    background-image: linear-gradient(rgb(0 0 0 / 0) 30%, #000000 70%);
+    background-image: linear-gradient(rgb(0 0 0 / 0) 0%, #000000 100%);
     opacity: 0.8;
     border-radius: 10px;
 }
