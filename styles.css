@@ -735,7 +735,6 @@ width: 100%;
     position: absolute;
     z-index: 1;
     width: 100%;
-    margin-top: 250px;
 }
 
 .teams__back-left {
@@ -744,7 +743,6 @@ width: 100%;
 }
 .teams__back-left-1 {
     display: flex;
-    margin: -250px 0 0 0;
 }
 .teams__back-left-2 {
     display: flex;
@@ -756,7 +754,6 @@ width: 100%;
 }
 .teams__back-right-1 {
     display: flex;
-    margin: -250px 0 0 0;
 }
 .teams__back-right-2 {
     display: flex;
