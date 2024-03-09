@@ -743,6 +743,7 @@ width: 100%;
 }
 .teams__back-left-1 {
     display: flex;
+
 }
 .teams__back-left-2 {
     display: flex;
@@ -878,16 +879,16 @@ width: 100%;
     line-height: 1.66;
     text-align: center;
 }
-
+.blog__vector-blog {
+    transform: translate(712.5px, -50%)
+}
 /* ======== GET ============================== */
 .get {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 150px;
+    margin-top: -150px;
     height: 663px;
-    width: 1305px;
-    margin: 0 auto;
 }
 
 .get__title {
