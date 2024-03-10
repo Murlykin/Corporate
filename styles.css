@@ -38,7 +38,7 @@ body {
     font-family: "Catamaran", sans-serif;
     font-size: 16px;
     letter-spacing: 0.03em;
-    
+
     margin: 0 auto;
 }
 
@@ -265,17 +265,19 @@ body {
     margin-top: 300px;
 }
 
-.back__head-left{
+.back__head-left {
     display: flex;
     position: relative;
     z-index: -16;
-    gap:50px;
+    gap: 50px;
     margin-left: -350px;
 }
-.back__head-left-img1{
+
+.back__head-left-img1 {
     width: 60px;
     height: 120px;
 }
+
 .back__head-left-img2 {
     width: 60px;
     height: 60px;
@@ -287,28 +289,34 @@ body {
     position: relative;
     z-index: -17;
 }
+
 .back__head-right-position {
     display: flex;
     transform: translate(200px, 50%);
     gap: 100px;
 }
+
 .back__head-right-img3 {
-        width: 180px;
-            height: 80px;
+    width: 180px;
+    height: 80px;
     transform: translate(1px, 70%);
 }
+
 .back__head-right-img4 {
     height: 120px;
-transform: translate(140px, 70%);
+    transform: translate(140px, 70%);
 }
+
 .back__head-right-img5 {
     transform: translate(0px, 350%);
     position: relative;
     z-index: +30;
 }
+
 .back__head-right-img6 {
     transform: translate(40px, -10%);
-    }
+}
+
 /* ====================clients========================= */
 
 .clients {
@@ -378,12 +386,9 @@ transform: translate(140px, 70%);
 
 .about__text {
     display: flex;
-    /* align-items: center; */
-
     flex-direction: column;
     height: 580px;
     width: 540px;
-    /* margin-right: 150px; */
 }
 
 .about__text-h2 {
@@ -434,7 +439,6 @@ transform: translate(140px, 70%);
     height: 68px;
     border: 1px solid #d22238;
     margin-right: 10px;
-
 }
 
 /* ================== VISION ============================= */
@@ -470,13 +474,6 @@ transform: translate(140px, 70%);
     letter-spacing: 0.02em;
 }
 
-/* .vison__position {
-
-    display: flex;
-        align-items: center;
-        justify-content: flex-end;
-    flex-direction: row-reverse;  
-} */
 .vison__servises {
     transform: rotate(90deg);
     font-weight: 700;
@@ -500,7 +497,6 @@ transform: translate(140px, 70%);
 .vison__card-items {
     width: 330px;
     height: 462px;
-    /* margin: 0 auto; */
     border-radius: 10px;
     padding: 20px 0 0 20px;
 }
@@ -557,6 +553,7 @@ transform: translate(140px, 70%);
     border: 1px solid #858585;
     margin: 40px 0;
     transition: box-shadow 400ms ease-in 0s, color 400ms ease-in 0s, background-color 400ms ease-in 0s;
+    fill: #858585;
 }
 
 .vison__button:focus,
@@ -564,6 +561,7 @@ transform: translate(140px, 70%);
     color: #FFFFFF;
     background-color: #d22238;
     border: 1px solid #d22238;
+    fill: #FFFFFF;
 }
 
 /* ================== FEATURES =========================== */
@@ -667,16 +665,18 @@ transform: translate(140px, 70%);
     background: linear-gradient(119.11deg, #F00000 -28.05%, #9109F7 79.61%);
     position: relative;
     z-index: 1;
-width: 100%;
+    width: 100%;
     margin: 0 auto;
 }
+
 .teams__above {
-        display: flex;
-            align-items: center;
-            flex-direction: column;
-            Justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    Justify-content: center;
 
 }
+
 .teams__title {
     font-family: "Catamaran", sans-serif;
     font-weight: 700;
@@ -792,21 +792,26 @@ width: 100%;
     position: relative;
     z-index: 5;
 }
+
 .teams__back-left-1 {
     display: flex;
 
 }
+
 .teams__back-left-2 {
     display: flex;
     margin: -200px 0 0 140px;
 }
+
 .teams__back-right {
     position: relative;
     z-index: 8;
 }
+
 .teams__back-right-1 {
     display: flex;
 }
+
 .teams__back-right-2 {
     display: flex;
     margin: -80px 0 0 230px;
@@ -818,9 +823,9 @@ width: 100%;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-   
+
     margin-top: 150px;
-  
+
 }
 
 .blog__items {
@@ -930,9 +935,11 @@ width: 100%;
     line-height: 1.66;
     text-align: center;
 }
+
 .blog__vector-blog {
     transform: translate(712.5px, -50%)
 }
+
 /* ======== GET ============================== */
 .get {
     display: flex;
@@ -1082,7 +1089,11 @@ width: 100%;
     margin: -50px 0 50px;
 }
 
-/* не работает, надо устранить */
-svg:hover .footer__svg:hover {
+.footer__svg {
+    fill: #E0E0E0;
+}
+
+.footer__svg:hover {
     fill: #000000;
+    transition: all .25s ease 0s;
 }
