@@ -504,7 +504,6 @@ body {
 .vison__card-items:focus,
 .vison__card-items:hover {
     box-shadow: 0px 18px 41px 0px rgba(240, 0, 0, 0.06);
-    /* border: 1px solid #d22238; */
 }
 
 .vison__title-card {
@@ -552,16 +551,18 @@ body {
     height: 52px;
     border: 1px solid #858585;
     margin: 40px 0;
-    transition: box-shadow 400ms ease-in 0s, color 400ms ease-in 0s, background-color 400ms ease-in 0s;
     fill: #858585;
 }
-
+.vison__button:after {
+    content: " →";
+}
 .vison__button:focus,
 .vison__button:hover {
     color: #FFFFFF;
     background-color: #d22238;
     border: 1px solid #d22238;
     fill: #FFFFFF;
+    transition: box-shadow 400ms ease-in 0s, color 400ms ease-in 0s, background-color 400ms ease-in 0s;
 }
 
 /* ================== FEATURES =========================== */
