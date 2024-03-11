@@ -38,7 +38,6 @@ body {
     font-family: "Catamaran", sans-serif;
     font-size: 16px;
     letter-spacing: 0.03em;
-
     margin: 0 auto;
 }
 
@@ -46,7 +45,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* text-align: center; */
 }
 
 /* =================nav=============================== */
@@ -215,7 +213,12 @@ body {
     border: 1px solid #d22238;
     margin-right: 10px;
 }
-
+.head__left-button:focus,
+.head__left-button:hover {
+    background-color: #f4596b;
+    border: 1px solid #f4596b;
+    transition: box-shadow 400ms ease-in 0s, color 400ms ease-in 0s, background-color 400ms ease-in 0s;
+}
 .head__left-form {
     display: flex;
     gap: 5px;
@@ -440,7 +443,12 @@ body {
     border: 1px solid #d22238;
     margin-right: 10px;
 }
-
+.about__button:focus,
+.about__button:hover {
+    background-color: #f4596b;
+    border: 1px solid #f4596b;
+    transition: box-shadow 400ms ease-in 0s, color 400ms ease-in 0s, background-color 400ms ease-in 0s;
+}
 /* ================== VISION ============================= */
 
 .vison {
@@ -451,8 +459,6 @@ body {
     margin-top: 150px;
     height: 663px;
     width: 1305px;
-    /* margin: 0 auto; */
-    margin-left: 148px;
 }
 
 .vison__title {
@@ -473,7 +479,9 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
 }
-
+.vison__position{
+transform: translate(150px, 0%);
+}
 .vison__servises {
     transform: rotate(90deg);
     font-weight: 700;
@@ -572,9 +580,6 @@ body {
     align-items: center;
     margin-top: 150px;
     Justify-content: center;
-    /* height: 663px;
-        width: 1305px; */
-
 }
 
 .features__features {
@@ -583,11 +588,7 @@ body {
     font-size: 70px;
     line-height: 1.64;
     color: #f5f5f5;
-    /* text-align: center; */
-    /* width: 560px;
-        height: 119px; */
     margin-left: -140px;
-    /* margin: 100px 0 0 -100px; */
 }
 
 .features__title {
@@ -675,7 +676,6 @@ body {
     align-items: center;
     flex-direction: column;
     Justify-content: center;
-
 }
 
 .teams__title {
@@ -699,7 +699,6 @@ body {
     margin: 0 0 75px 0;
 }
 
-
 .teams__cart {
     display: flex;
     gap: 120px;
@@ -719,7 +718,6 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
     color: #FFFFFF;
-
 }
 
 .teams__cart-li-p {
@@ -750,14 +748,12 @@ body {
     width: 202.83px;
     height: 282.72px;
     transform: rotate(34.78deg);
-    /* border: 1px solid red; */
 }
 
 .teams__image-back2 {
     position: relative;
     z-index: 4;
     width: 210px;
-    /* height: 293px; */
     transform: rotate(-5deg);
 }
 
@@ -766,7 +762,6 @@ body {
     margin: 0 0 0 56px;
     position: absolute;
     z-index: 4;
-    /* border: 1px solid red; */
     width: 202.83px;
     height: 282.72px;
 }
@@ -776,10 +771,7 @@ body {
     position: relative;
     z-index: 4;
     width: 210px;
-    /* height: 293px; */
-    /* border: 1px solid red; */
 }
-
 
 .teams__back {
     display: flex;
@@ -796,7 +788,6 @@ body {
 
 .teams__back-left-1 {
     display: flex;
-
 }
 
 .teams__back-left-2 {
@@ -824,9 +815,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-
     margin-top: 150px;
-
 }
 
 .blog__items {
@@ -908,7 +897,6 @@ body {
 .blog__time {
     display: flex;
     align-items: center;
-    /* justify-content: center; */
 }
 
 .blog__p-time {
@@ -984,12 +972,12 @@ body {
 .get__img {
     position: absolute;
     z-index: -1;
-    margin: 0 0 0 -320px;
+    margin: 0 0 0 -420px;
 }
 
 .get__img1 {
     position: absolute;
-    margin: 50px 0 0 -350px;
+    margin: 50px 0 0 -450px;
 }
 
 .get__img2 {
@@ -1011,7 +999,12 @@ body {
     border: 1px solid #d22238;
     margin-right: 10px;
 }
-
+.get__button:focus,
+.get__button:hover {
+    background-color: #f4596b;
+    border: 1px solid #f4596b;
+    transition: box-shadow 400ms ease-in 0s, color 400ms ease-in 0s, background-color 400ms ease-in 0s;
+}
 /* =========================== FOTER================= */
 .footer {
     display: flex;
