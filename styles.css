@@ -213,12 +213,14 @@ body {
     border: 1px solid #d22238;
     margin-right: 10px;
 }
+
 .head__left-button:focus,
 .head__left-button:hover {
     background-color: #f4596b;
     border: 1px solid #f4596b;
     transition: box-shadow 400ms ease-in 0s, color 400ms ease-in 0s, background-color 400ms ease-in 0s;
 }
+
 .head__left-form {
     display: flex;
     gap: 5px;
@@ -443,12 +445,14 @@ body {
     border: 1px solid #d22238;
     margin-right: 10px;
 }
+
 .about__button:focus,
 .about__button:hover {
     background-color: #f4596b;
     border: 1px solid #f4596b;
     transition: box-shadow 400ms ease-in 0s, color 400ms ease-in 0s, background-color 400ms ease-in 0s;
 }
+
 /* ================== VISION ============================= */
 
 .vison {
@@ -479,9 +483,15 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
 }
-.vison__position{
-transform: translate(150px, 0%);
+
+.vison__position {
+    display: flex;
+    transform: translate(100px, 0%);
+    align-items: center;
+    Justify-content: center;
+    width: 1200px;
 }
+
 .vison__servises {
     transform: rotate(90deg);
     font-weight: 700;
@@ -491,7 +501,7 @@ transform: translate(150px, 0%);
     text-align: center;
     width: 560px;
     height: 119px;
-    margin: 0 -20px 0 -250px;
+    margin: 0 -20px 0 -100px;
     letter-spacing: 0.02em;
 }
 
@@ -561,9 +571,11 @@ transform: translate(150px, 0%);
     margin: 40px 0;
     fill: #858585;
 }
+
 .vison__button:after {
     content: " →";
 }
+
 .vison__button:focus,
 .vison__button:hover {
     color: #FFFFFF;
@@ -999,12 +1011,14 @@ transform: translate(150px, 0%);
     border: 1px solid #d22238;
     margin-right: 10px;
 }
+
 .get__button:focus,
 .get__button:hover {
     background-color: #f4596b;
     border: 1px solid #f4596b;
     transition: box-shadow 400ms ease-in 0s, color 400ms ease-in 0s, background-color 400ms ease-in 0s;
 }
+
 /* =========================== FOTER================= */
 .footer {
     display: flex;
@@ -1028,7 +1042,7 @@ transform: translate(150px, 0%);
     line-height: 1.75;
     color: #3d3d3d;
     text-align: center;
-    padding-top: 20px;
+    padding: 10px;
 }
 
 .footer__us {
